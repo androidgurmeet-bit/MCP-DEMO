@@ -12,4 +12,4 @@ def get_weather(location: str) -> str:
 
 
 if __name__ == "__main__":
-    mcp.run(transport="sse")
+    mcp.run(transport="stdio")
